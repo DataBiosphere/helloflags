@@ -1,0 +1,2 @@
+CREATE ROLE dbuser WITH LOGIN ENCRYPTED PASSWORD 'dbpwd';
+CREATE DATABASE helloflags_db OWNER dbuser;
